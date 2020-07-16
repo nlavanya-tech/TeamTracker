@@ -1,0 +1,57 @@
+﻿@model TeamTracker.Entities.Teams
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CreateTeam</title>
+</head>
+<body>
+
+    <h4>Teams</h4>
+    <hr />
+    @using (Html.BeginForm("AddTeam", "Team", FormMethod.Post))
+    {
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="CreateTeam">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="TeamName" class="control-label"></label>
+                        <input asp-for="TeamName" class="form-control" />
+                        <span asp-validation-for="TeamName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TeamManager" class="control-label"></label>
+                        <input asp-for="TeamManager" class="form-control" />
+                        <span asp-validation-for="TeamManager" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DomainOfWork" class="control-label"></label>
+                        <input asp-for="DomainOfWork" class="form-control" />
+                        <span asp-validation-for="DomainOfWork" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TeamMembers" class="control-label"></label>
+                        <input asp-for="TeamMembers" class="form-control" />
+                        <span asp-validation-for="TeamMembers" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    }
+        @section Scripts {
+            @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        }
+
+    </body>
+
+</html>

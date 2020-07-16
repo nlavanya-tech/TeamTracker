@@ -1,0 +1,44 @@
+﻿@model IEnumerable<TeamTracker.Entities.Teams>;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <div>
+        <input type="button" value="AddNewTeams" onclick="location.href='@Url.Action("CreateTeam", "Team")'" />
+    </div>
+    <div>
+        <input type="button" value="HomePage" onclick="location.href='@Url.Action("Index", "Home")'" />
+    </div>
+    <hr />
+</head>
+
+
+<body>
+    <table class="table">
+        <tr>
+            <th>TeamName</th>
+            <th>TeamName</th>
+            <th>DomainOfWork</th>
+            <th>TeamMembers</th>
+        </tr>
+        @foreach (var list in Model)
+        {
+            <tr>
+                <td>@list.TeamName</td>
+                <td>@list.TeamManager</td>
+                <td>@list.DomainOfWork</td>
+                <td>@list.TeamMembers</td>
+                <td>
+                    <a asp-action="EditTeam">Edit/</a>
+                    <a asp-action="DeleteTeam">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+</body>
+</html>

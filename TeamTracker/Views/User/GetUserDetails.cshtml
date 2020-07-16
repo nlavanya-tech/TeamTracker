@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <div>
+        <input type="button" value="AddNewTeams" onclick="location.href='@Url.Action("CreateUser", "User")'" />
+    </div>
+    <div>
+        <input type="button" value="HomePage" onclick="location.href='@Url.Action("Index", "Home")'" />
+    </div>
+    <hr />
+</head>
+
+
+<body>
+    <table class="table">
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Email</th>
+            <th>UserType</th>
+            <th>Status</th>
+            <th>InterviewStatus</th>
+            <th>ReportingTo</th>
+            <th>Mobile</th>
+        </tr>
+        @foreach (var list in Model)
+        {
+            <tr>
+                <td>@list.FirstName</td>
+                <td>@list.LastName</td>
+                <td>@list.Email</td>
+                <td>@list.UserType</td>
+                <td>@list.Status</td>
+                <td>@list.InterviewStatus</td>
+                <td>@list.ReportingTo</td>
+                <td>@list.Mobile</td>
+                <td>
+                    <a asp-action="EditUser">EditUser</a>
+                    <a asp-action="DeleteUser">DeleteUser</a>
+                </td>
+            </tr>
+        }
+    </table>
+</body>
+</html>

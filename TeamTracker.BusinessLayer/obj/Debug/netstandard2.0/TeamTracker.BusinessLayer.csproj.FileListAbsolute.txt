@@ -1,0 +1,13 @@
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\bin\Debug\netstandard2.0\TeamTracker.BusinessLayer.deps.json
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\bin\Debug\netstandard2.0\TeamTracker.BusinessLayer.dll
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\bin\Debug\netstandard2.0\TeamTracker.BusinessLayer.pdb
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\bin\Debug\netstandard2.0\TeamTracker.DataLayer.dll
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\bin\Debug\netstandard2.0\TeamTracker.Entities.dll
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\bin\Debug\netstandard2.0\TeamTracker.DataLayer.pdb
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\bin\Debug\netstandard2.0\TeamTracker.Entities.pdb
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\obj\Debug\netstandard2.0\TeamTracker.BusinessLayer.csprojAssemblyReference.cache
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\obj\Debug\netstandard2.0\TeamTracker.BusinessLayer.AssemblyInfoInputs.cache
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\obj\Debug\netstandard2.0\TeamTracker.BusinessLayer.AssemblyInfo.cs
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\obj\Debug\netstandard2.0\TeamTracker.BusinessLayer.csproj.CopyComplete
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\obj\Debug\netstandard2.0\TeamTracker.BusinessLayer.dll
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.BusinessLayer\obj\Debug\netstandard2.0\TeamTracker.BusinessLayer.pdb
