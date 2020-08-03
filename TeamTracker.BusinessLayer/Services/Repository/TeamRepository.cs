@@ -18,8 +18,8 @@ namespace TeamTracker.BusinessLayer.Services.Repository
 
         public async Task<IEnumerable<Teams>> TeamReadAsync()
         {
-            var notes = this.DbContext.teams.ToList();
-            return notes;
+            var teams = this.DbContext.teams.ToList();
+            return teams;
         }
         //Add team into Inmemory Db and return teams
         public async Task<Teams> TeamCreateAsync(Teams teams)

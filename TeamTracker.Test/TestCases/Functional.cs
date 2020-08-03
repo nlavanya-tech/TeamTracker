@@ -20,10 +20,10 @@ namespace TeamTracker.Test.TestCases
 
         static Functional()
         {
-            if (!File.Exists("../../../../output_functional_revised.txt"))
+            if (!File.Exists("../../../../output_revised.txt"))
                 try
                 {
-                    File.Create("../../../../output_functional_revised.txt").Dispose();
+                    File.Create("../../../../output_revised.txt").Dispose();
                 }
                 catch (Exception)
                 {
@@ -31,8 +31,8 @@ namespace TeamTracker.Test.TestCases
                 }
             else
             {
-                File.Delete("../../../../output_functional_revised.txt");
-                File.Create("../../../../output_functional_revised.txt").Dispose();
+                File.Delete("../../../../output_revised.txt");
+                File.Create("../../../../output_revised.txt").Dispose();
             }
         }
         public Functional()
@@ -54,7 +54,7 @@ namespace TeamTracker.Test.TestCases
             if (result != null) { finalresult = true; }
 
             //finalresult displaying in text file
-            File.AppendAllText("../../../../output_functional_revised.txt", "Test_GetAllTeams=" + finalresult + "\n");
+            File.AppendAllText("../../../../output_revised.txt", "Test_GetAllTeams=" + finalresult + "\n");
 
             Assert.NotNull(result);
         }
@@ -80,7 +80,7 @@ namespace TeamTracker.Test.TestCases
 
 
             //finalresult displaying in text file
-            File.AppendAllText("../../../../output_functional_revised.txt", "Test_CreateTeam=" + final + "\n");
+            File.AppendAllText("../../../../output_revised.txt", "Test_CreateTeam=" + final + "\n");
             Assert.Equal(team, result);
         }
 
@@ -106,7 +106,7 @@ namespace TeamTracker.Test.TestCases
 
 
             //finalresult displaying in text file
-            File.AppendAllText("../../../../output_functional_revised.txt", "Test_UpdatedTeam=" + finalresult + "\n");
+            File.AppendAllText("../../../../output_revised.txt", "Test_UpdatedTeam=" + finalresult + "\n");
             Assert.Equal(team, result);
         }
         //Test Delete Teams functionality
@@ -127,7 +127,7 @@ namespace TeamTracker.Test.TestCases
             bool result = await _Teamservices.TeamDeleteAsync(team);
 
             //finalresult displaying in text file
-            File.AppendAllText("../../../../output_functional_revised.txt", "Test_DeleteTeams=" + result + "\n");
+            File.AppendAllText("../../../../output_revised.txt", "Test_DeleteTeams=" + result + "\n");
             Assert.True(result);
         }
 
@@ -146,7 +146,7 @@ namespace TeamTracker.Test.TestCases
                 finalresult = true;
 
             //finalresult displaying in text file
-            File.AppendAllText("../../../../output_functional_revised.txt", "Test_ValidateEmptyTeam=" + finalresult + "\n");
+            File.AppendAllText("../../../../output_revised.txt", "Test_ValidateEmptyTeam=" + finalresult + "\n");
             Assert.NotNull(result);
         }
 
@@ -164,7 +164,7 @@ namespace TeamTracker.Test.TestCases
             if (result != null) { finalresult = true; }
 
             //finalresult displaying in text file
-            File.AppendAllText("../../../../output_functional_revised.txt", "Test_GetAllUsers=" + finalresult + "\n");
+            File.AppendAllText("../../../../output_revised.txt", "Test_GetAllUsers=" + finalresult + "\n");
 
             Assert.NotNull(result);
         }
@@ -194,7 +194,7 @@ namespace TeamTracker.Test.TestCases
 
 
             //finalresult displaying in text file
-            File.AppendAllText("../../../../output_functional_revised.txt", "Test_CreateUser=" + final + "\n");
+            File.AppendAllText("../../../../output_revised.txt", "Test_CreateUser=" + final + "\n");
             Assert.Equal(user, result);
         }
 
@@ -224,7 +224,7 @@ namespace TeamTracker.Test.TestCases
 
 
             //finalresult displaying in text file
-            File.AppendAllText("../../../../output_functional_revised.txt", "Test_UpdatedTeam=" + finalresult + "\n");
+            File.AppendAllText("../../../../output_revised.txt", "Test_UpdatedTeam=" + finalresult + "\n");
             Assert.Equal(user, result);
         }
         //Test Delete Teams functionality
@@ -249,7 +249,7 @@ namespace TeamTracker.Test.TestCases
             bool result = await _Userservices.UserDeleteAsync(user);
 
             //finalresult displaying in text file
-            File.AppendAllText("../../../../output_functional_revised.txt", "Test_DeleteUser=" + result + "\n");
+            File.AppendAllText("../../../../output_revised.txt", "Test_DeleteUser=" + result + "\n");
             Assert.True(result);
         }
 
@@ -268,7 +268,7 @@ namespace TeamTracker.Test.TestCases
                 finalresult = true;
 
             //finalresult displaying in text file
-            File.AppendAllText("../../../../output_functional_revised.txt", "Test_ValidateEmptyUser=" + finalresult + "\n");
+            File.AppendAllText("../../../../output_revised.txt", "Test_ValidateEmptyUser=" + finalresult + "\n");
             Assert.NotNull(result);
         }
     }

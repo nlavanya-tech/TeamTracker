@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp2.2": {
             "projectReferences": {
               "I:\\IIHT\\TeamTracker\\Jr_FSE_PA\\Project\\TeamTracker\\TeamTracker.DataLayer\\TeamTracker.DataLayer.csproj": {
                 "projectPath": "I:\\IIHT\\TeamTracker\\Jr_FSE_PA\\Project\\TeamTracker\\TeamTracker.DataLayer\\TeamTracker.DataLayer.csproj"
@@ -46,12 +46,12 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.2": {
           "dependencies": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
@@ -86,14 +86,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp2.2": {
             "projectReferences": {
               "I:\\IIHT\\TeamTracker\\Jr_FSE_PA\\Project\\TeamTracker\\TeamTracker.Entities\\TeamTracker.Entities.csproj": {
                 "projectPath": "I:\\IIHT\\TeamTracker\\Jr_FSE_PA\\Project\\TeamTracker\\TeamTracker.Entities\\TeamTracker.Entities.csproj"
@@ -108,16 +108,16 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[2.2.0, )"
             },
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
@@ -152,14 +152,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -170,12 +170,12 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.2": {
           "dependencies": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             },
             "System.ComponentModel.Annotations": {
@@ -214,14 +214,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.2": {
             "projectReferences": {
               "I:\\IIHT\\TeamTracker\\Jr_FSE_PA\\Project\\TeamTracker\\TeamTracker.BusinessLayer\\TeamTracker.BusinessLayer.csproj": {
                 "projectPath": "I:\\IIHT\\TeamTracker\\Jr_FSE_PA\\Project\\TeamTracker\\TeamTracker.BusinessLayer\\TeamTracker.BusinessLayer.csproj"
@@ -242,15 +242,24 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.2": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.InMemory": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.5, )"
+              "version": "[2.2.0, )",
+              "autoReferenced": true
             },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
             }
           },
           "imports": [
@@ -263,14 +272,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }

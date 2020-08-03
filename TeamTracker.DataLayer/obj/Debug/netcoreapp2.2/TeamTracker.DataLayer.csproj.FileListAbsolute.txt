@@ -1,0 +1,11 @@
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.DataLayer\bin\Debug\netcoreapp2.2\TeamTracker.DataLayer.deps.json
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.DataLayer\bin\Debug\netcoreapp2.2\TeamTracker.DataLayer.dll
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.DataLayer\bin\Debug\netcoreapp2.2\TeamTracker.DataLayer.pdb
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.DataLayer\bin\Debug\netcoreapp2.2\TeamTracker.Entities.dll
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.DataLayer\bin\Debug\netcoreapp2.2\TeamTracker.Entities.pdb
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.DataLayer\obj\Debug\netcoreapp2.2\TeamTracker.DataLayer.csprojAssemblyReference.cache
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.DataLayer\obj\Debug\netcoreapp2.2\TeamTracker.DataLayer.AssemblyInfoInputs.cache
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.DataLayer\obj\Debug\netcoreapp2.2\TeamTracker.DataLayer.AssemblyInfo.cs
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.DataLayer\obj\Debug\netcoreapp2.2\TeamTracker.DataLayer.csproj.CopyComplete
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.DataLayer\obj\Debug\netcoreapp2.2\TeamTracker.DataLayer.dll
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.DataLayer\obj\Debug\netcoreapp2.2\TeamTracker.DataLayer.pdb

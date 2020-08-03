@@ -1,0 +1,7 @@
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.Entities\bin\Debug\netcoreapp2.2\TeamTracker.Entities.deps.json
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.Entities\bin\Debug\netcoreapp2.2\TeamTracker.Entities.dll
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.Entities\bin\Debug\netcoreapp2.2\TeamTracker.Entities.pdb
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.Entities\obj\Debug\netcoreapp2.2\TeamTracker.Entities.AssemblyInfoInputs.cache
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.Entities\obj\Debug\netcoreapp2.2\TeamTracker.Entities.AssemblyInfo.cs
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.Entities\obj\Debug\netcoreapp2.2\TeamTracker.Entities.dll
+I:\IIHT\TeamTracker\Jr_FSE_PA\Project\TeamTracker\TeamTracker.Entities\obj\Debug\netcoreapp2.2\TeamTracker.Entities.pdb
